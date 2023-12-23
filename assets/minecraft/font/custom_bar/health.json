@@ -1,0 +1,30 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/custom_bar/health_bar/heart.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": [
+                "ABab"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/custom_bar/health_bar/heart_2.png",
+            "ascent": 19,
+            "height": 19,
+            "chars": [
+                "CDcd"
+            ]
+        },
+        {
+            "type": "space",
+            "advances": {
+                "1": -1,
+                "3": -3,
+                "<": -83
+            }
+        }
+    ]
+}
